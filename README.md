@@ -105,7 +105,7 @@ python main.py
     Cyclic CA → rainbow gradient based on state
 - Fully compatible with NumPy 2.x and Pygame.
 
-##**Folder Structure**
+## **Folder Structure**
 cellular_automata/
 │
 ├── main.py                  # Main driver to choose and run CA type
