@@ -106,6 +106,7 @@ python main.py
 - Fully compatible with NumPy 2.x and Pygame.
 
 ## **Folder Structure**
+```text
 cellular_automata/
 │
 ├── main.py                  # Main driver to choose and run CA type
@@ -117,6 +118,11 @@ cellular_automata/
 ├── generate_examples.py     # Optional: helps to generate the example for each CA
 ├── README.md                # Instructions for usage
 └── examples/                # Optional: preset patterns / seeds for CA
-    ├── wireworld_gates.npy
+    ├── brians_brain.npy
+    ├── conway_glider.npy
+    ├── cyclic_pattern.npy
+    ├── elementary_ca.npy
     ├── langtons_ant_pattern.npy
-    └── conway_glider.npy
+    ├── seeds_pattern.npy
+    ├── totalistic_pattern.npy
+    └── wireworld_gates.npy
